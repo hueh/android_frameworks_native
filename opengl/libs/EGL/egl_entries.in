@@ -67,8 +67,11 @@ EGL_ENTRY(EGLint, eglWaitSyncANDROID, EGLDisplay, EGLSyncKHR, EGLint)
 
 /* NVIDIA extensions */
 
+#ifndef STE_HARDWARE
 EGL_ENTRY(EGLuint64NV, eglGetSystemTimeFrequencyNV, void)
 EGL_ENTRY(EGLuint64NV, eglGetSystemTimeNV, void)
+
+#endif
 
 /* IMG extensions */
 
