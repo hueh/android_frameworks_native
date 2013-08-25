@@ -25,7 +25,7 @@
 #include <ui/Rect.h>
 
 #ifdef STE_HARDWARE
-#include <hardware/copybit.h>
+#include "copybit.h"
 #endif
 
 #include <utils/Flattenable.h>
